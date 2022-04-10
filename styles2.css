@@ -1,0 +1,128 @@
+body {
+    overflow-x: hidden;
+}
+
+#app {
+    width: 100%;
+    height: 100vh;
+}
+
+#menu {
+    width: 100px;
+    background-color: #e53935;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+    z-index: 101;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.menuIcon {
+    height: 10%;
+    width: 100%;
+    color: white;
+}
+
+#navbar {
+    height: 7vh;
+    background-color: #ab000d;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+    z-index: 101;
+    overflow-y: hidden;
+}
+
+.logo {
+    height: 7vh;
+}
+
+#main {
+    height: 93vh;
+}
+
+.menuIcon:hover {
+    background-color: white;
+    color: #ab000d;
+    border-radius: 9%;
+    transition: all .5s;
+}
+
+#bannerPlanes {
+    width: 101%;
+    height: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://img.freepik.com/vector-gratis/avion-o-aeronave-anuncio-mensaje-blanco-banner-plantilla-texto_109709-507.jpg?w=1800');
+}
+
+#vacationBanner {
+    transition: all 1s;
+    width: 100%;
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/386009/pexels-photo-386009.jpeg');
+}
+
+#vacationBanner2 {
+    transition: all 1s;
+    width: 100%;
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/3155665/pexels-photo-3155665.jpeg');
+}
+
+#vacationBanner2:hover {
+    filter: blur(6px);
+}
+
+#vacationBanner3 {
+    transition: all .5s;
+    width: 100%;
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/3601425/pexels-photo-3601425.jpeg');
+}
+
+#vacationBanner3:hover {}
+
+.filter {
+    filter: blur(6px);
+}
+
+#parrVacation1 {
+    transition: all 1s;
+    opacity: 0;
+}
+
+#parrVacation1:hover {
+    opacity: 1;
+}
+
+
+#parrVacation2 {
+    transition: all 1s;
+    opacity: 0;
+}
+
+#parrVacation2:hover {
+    opacity: 1;
+}
+
+#parrVacation3 {
+    transition: all 1s;
+    opacity: 0;
+}
+
+#parrVacation3:hover {
+    opacity: 1;
+}
